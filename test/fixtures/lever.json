@@ -1,0 +1,18 @@
+[
+  {
+    "id": "a1b2c3",
+    "text": "Engineering Co-op (Water Resources)",
+    "hostedUrl": "https://jobs.lever.co/example/a1b2c3",
+    "createdAt": 1790000000000,
+    "categories": { "location": "Columbia, SC", "commitment": "Co-op", "team": "Water" },
+    "descriptionPlain": "Support stormwater modeling and drainage design for municipal clients.",
+    "lists": [{ "text": "Requirements", "content": "<li>Enrolled in an ABET civil engineering program</li>" }]
+  },
+  {
+    "id": "d4e5f6",
+    "text": "Marketing Intern",
+    "hostedUrl": "https://jobs.lever.co/example/d4e5f6",
+    "categories": { "location": "Columbia, SC" },
+    "descriptionPlain": "Help our civil engineering marketing team with proposals."
+  }
+]

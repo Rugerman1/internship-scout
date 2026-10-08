@@ -1,0 +1,20 @@
+{
+  "SearchResult": {
+    "SearchResultItems": [
+      {
+        "MatchedObjectId": "800001",
+        "MatchedObjectDescriptor": {
+          "PositionTitle": "Student Trainee (Civil Engineering)",
+          "PositionURI": "https://www.usajobs.gov/job/800001",
+          "PositionLocationDisplay": "Charleston, South Carolina",
+          "OrganizationName": "U.S. Army Corps of Engineers",
+          "DepartmentName": "Department of the Army",
+          "QualificationSummary": "Must be enrolled at least half-time in an accredited engineering program.",
+          "PublicationStartDate": "2026-10-02T00:00:00",
+          "ApplicationCloseDate": "2026-10-30T23:59:59",
+          "UserArea": { "Details": { "JobSummary": "Pathways internship in the Charleston District.", "MajorDuties": ["Assist with hydraulic analysis of navigation projects."] } }
+        }
+      }
+    ]
+  }
+}

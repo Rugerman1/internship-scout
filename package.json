@@ -1,0 +1,30 @@
+{
+  "name": "internship-scout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc -p .",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "discover": "node scripts/discover-firms.mjs",
+    "eval": "tsx eval/run-eval.ts",
+    "demo": "wrangler d1 migrations apply internship-scout --local && wrangler d1 execute internship-scout --local --file scripts/demo-seed.sql && wrangler dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.132.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261008.1",
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3",
+    "wrangler": "^4.148.0"
+  }
+}

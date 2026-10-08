@@ -1,0 +1,20 @@
+name = "internship-scout"
+main = "src/index.ts"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Runs once a day at 11:00 UTC (7 AM Eastern during daylight time).
+[triggers]
+crons = ["0 11 * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "internship-scout"
+database_id = "REPLACE_WITH_ID_FROM_wrangler_d1_create"
+migrations_dir = "migrations"
+
+[vars]
+ALERT_MIN_SCORE = "7"
+
+# Secrets (set with `npx wrangler secret put NAME`, never committed):
+#   ANTHROPIC_API_KEY, APP_PASSWORD, USAJOBS_API_KEY, USAJOBS_EMAIL, NTFY_TOPIC

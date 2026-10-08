@@ -1,0 +1,24 @@
+{
+  "name": "Your Name",
+  "email": "you@clemson.edu",
+  "school": "Clemson University",
+  "major": "Civil Engineering",
+  "class_standing": "Sophomore",
+  "graduation": "May 2029",
+  "gpa": "3.4",
+  "location": "Clemson, SC",
+  "willing_to_relocate": ["South Carolina", "North Carolina", "Georgia"],
+  "interests": ["transportation", "water resources", "site development"],
+  "coursework": ["Statics", "Calculus II", "Engineering Graphics (AutoCAD)", "Surveying"],
+  "skills": ["AutoCAD", "Excel", "Python (beginner)", "Field data collection"],
+  "certifications": ["OSHA 10 (example)"],
+  "experience": [
+    { "role": "Example role", "org": "Example employer", "dates": "Summer 2026", "bullets": ["Replace with what you actually did"] }
+  ],
+  "projects": [
+    { "name": "Study Buddy", "bullets": ["Replace with your real project bullets"] }
+  ],
+  "activities": ["ASCE student chapter (example)"],
+  "work_authorization": "U.S. citizen",
+  "dealbreakers": ["Requires senior standing or a completed degree", "Unpaid"]
+}

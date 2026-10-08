@@ -1,0 +1,27 @@
+{
+  "_comment": "Firms to look for. `npm run discover` tries each slug on Greenhouse and Lever and writes the ones that answer to config/firms.json. Slugs are guesses (usually the company name with no spaces); add or fix them freely.",
+  "candidates": [
+    { "name": "Thomas & Hutton", "region": "SC/GA", "slugs": ["thomasandhutton", "thomashutton"] },
+    { "name": "Davis & Floyd", "region": "SC", "slugs": ["davisfloyd", "davisandfloyd"] },
+    { "name": "Kimley-Horn", "region": "Southeast", "slugs": ["kimleyhorn", "kimley-horn"] },
+    { "name": "HNTB", "region": "National", "slugs": ["hntb"] },
+    { "name": "Stantec", "region": "National", "slugs": ["stantec"] },
+    { "name": "WSP", "region": "National", "slugs": ["wsp", "wspusa"] },
+    { "name": "Michael Baker International", "region": "National", "slugs": ["mbakerintl", "michaelbaker"] },
+    { "name": "STV", "region": "National", "slugs": ["stv", "stvinc"] },
+    { "name": "Gannett Fleming TranSystems", "region": "National", "slugs": ["gannettfleming", "gftransystems"] },
+    { "name": "Mead & Hunt", "region": "National", "slugs": ["meadhunt", "meadandhunt"] },
+    { "name": "Freese and Nichols", "region": "Southeast/TX", "slugs": ["freeseandnichols"] },
+    { "name": "Pond", "region": "Southeast", "slugs": ["pond", "pondco"] },
+    { "name": "Woolpert", "region": "National", "slugs": ["woolpert"] },
+    { "name": "S&ME", "region": "Southeast", "slugs": ["sme", "smeinc"] },
+    { "name": "ECS", "region": "Southeast", "slugs": ["ecslimited", "ecs"] },
+    { "name": "Terracon", "region": "National", "slugs": ["terracon"] },
+    { "name": "McAdams", "region": "NC", "slugs": ["mcadams", "mcadamsco"] },
+    { "name": "Timmons Group", "region": "VA/NC", "slugs": ["timmonsgroup"] },
+    { "name": "Bowman", "region": "National", "slugs": ["bowman", "bowmanconsulting"] },
+    { "name": "Mott MacDonald", "region": "National", "slugs": ["mottmac", "mottmacdonald"] },
+    { "name": "Barge Design Solutions", "region": "Southeast", "slugs": ["barge", "bargedesign"] },
+    { "name": "Crowder Construction", "region": "Carolinas", "slugs": ["crowder", "crowderconstruction"] }
+  ]
+}
